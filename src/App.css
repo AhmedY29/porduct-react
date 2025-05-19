@@ -1,0 +1,25 @@
+
+body{
+  background-color: #fefefe;
+}
+.product-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  gap: 20px;
+}
+
+
+.product-item{
+  background-color: white;
+  border-radius: 8px;
+  padding: 3%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+}
+.product-item:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+}
